@@ -1,27 +1,26 @@
 Repository is handled with git
 
-After copying file, some may be in at different line endings. In order to handle issue,
-clear cached files and restore to head by which git copies files to working folder in correct line endings.
+If file-copied instead of using repository, some of the files may be at different line endings. In order to handle the issue, clear cached files and restore to head by which git corrects line endings.
         git rm --cached -r .
         git reset --hard
 
 To compile in Visual Studio
-- install visual studio 2010 express
+- install visual studio 2010 express and cuda tools
 - in project directory type
         make
 
 To compile in Debian
-- install make, g++ and libpcap (wireshark)
+- install make, g++ and cuda tools
         make clean : to clean old data
         make		
 
 To compile in FreeBSD
-- install gcc, and libpcap
+- install gcc, and cuda tools (use pkg install)
         gmake clean : to clean old data
         gmake
 
 To compile in CentOs
-- install git, and libpcap-devel  (yum install libpcap-devel)
+- install cuda tools  (use yum)
 - install developer package (yum groupinstall "Development Tools")
         make clean : to clean old data
         make
