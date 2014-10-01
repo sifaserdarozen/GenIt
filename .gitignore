@@ -1,0 +1,6 @@
+lib/
+bin/
+tmp/
+!**cudart.lib
+iteration_results.txt
+**~
