@@ -1,4 +1,4 @@
-# GenIt
+# GenIt [![Build Status](https://travis-ci.org/sifaserdarozen/GenIt.png)](https://travis-ci.org/sifaserdarozen/GenIt)
 pseudo rtp payload generator experiment
 
 ### What is it?
